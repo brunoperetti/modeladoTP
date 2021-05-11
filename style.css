@@ -1,0 +1,10 @@
+* {
+    text-align: center;
+}
+
+#login, #infoAlumno {
+    border: 1px solid black;
+    padding: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
