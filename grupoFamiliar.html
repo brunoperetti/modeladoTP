@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelado de datos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+
+</head>
+<body>
+    <h1>Sistema de becas escolar v1.0</h1>
+
+    <div id="grupoFamiliar">
+        <form>
+        <h2>Grupo familiar del alumno</h2>
+        <h3>Padre</h3>
+        <label for="apellido">Apellidos: </label>
+        <input type="text" name="apellido" required><br>
+        <label for="nombre">Nombres: </label>
+        <input type="text" name="nombre" required><br>
+        <label for="edad">Edad: </label>
+        <input type="number" name="edad" ><br>
+        <label for="ocup">Ocupación: </label>
+        <input type="text" name="ocup" ><br>
+        <label for="lugar">Lugar de trabajo: </label>
+        <input type="text" name="lugar" ><br>
+        <label for="ingresos">Ingresos netos:</label>
+        <input type="number" name="ingresos" ><br>
+        <label for="convive">Convive: </label>
+        <label for="Si">Sí </label>
+        <input type="radio" name="convive" value="Si" >
+        <label for="No">No </label>
+        <input type="radio" name="convive" value="No" ><br>
+
+        <h3>Madre</h3>
+        <label for="apellido">Apellidos: </label>
+        <input type="text" name="apellido" required><br>
+        <label for="nombre">Nombres: </label>
+        <input type="text" name="nombre" required><br>
+        <label for="edad">Edad: </label>
+        <input type="number" name="edad" ><br>
+        <label for="ocup">Ocupación: </label>
+        <input type="text" name="ocup" ><br>
+        <label for="lugar">Lugar de trabajo: </label>
+        <input type="text" name="lugar" ><br>
+        <label for="ingresos">Ingresos netos:</label>
+        <input type="number" name="ingresos" ><br>
+        <label for="convive">Convive: </label>
+        <label for="Si">Sí </label>
+        <input type="radio" name="convive" value="Si" >
+        <label for="No">No </label>
+        <input type="radio" name="convive" value="No" ><br>
+
+        <h3>Hermano</h3>
+        <label for="apellido">Apellidos: </label>
+        <input type="text" name="apellido" required><br>
+        <label for="nombre">Nombres: </label>
+        <input type="text" name="nombre" required><br>
+        <label for="edad">Edad: </label>
+        <input type="number" name="edad" ><br>
+        <label for="ocup">Ocupación: </label>
+        <input type="text" name="ocup" ><br>
+        <label for="lugar">Lugar de trabajo: </label>
+        <input type="text" name="lugar" ><br>
+        <label for="ingresos">Ingresos netos:</label>
+        <input type="number" name="ingresos" ><br>
+        <label for="convive">Convive: </label>
+        <label for="Si">Sí </label>
+        <input type="radio" name="convive" value="Si" >
+        <label for="No">No </label>
+        <input type="radio" name="convive" value="No" ><br>
+        
+        <br>
+        <p>¿Algún miembro del grupo familiar sufre de una enfermedad crónica? </p>
+        <label for="Si">Sí </label>
+        <input type="radio" name="enfermedad" value="Si" >
+        <label for="No">No </label>
+        <input type="radio" name="enfermedad" value="No" >
+        <label for="diagnostico">Diagnóstico: </label>
+        <input type="text" name="diagnostico"  disabled="disabled">
+        <label for="costo">Costo en $: </label>
+        <input type="number" name="costo"  disabled="disabled">
+
+        <br><br>
+        <a href="index.html" id="enviarForm" class="btn btn-success">Agregar alumno</a>
+        <a href="index.html" id="cerrarSesion" class="btn btn-danger">Cerrar sesión</a>
+        </form>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
