@@ -20,5 +20,5 @@ function crearEscuela (){
 })
 .then(response => response.json())
 .then(data => console.log(data));
-
+window.location = "http://www.yoururl.com"; 
 }
